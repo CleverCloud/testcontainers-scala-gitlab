@@ -1,5 +1,5 @@
 
-lazy val testContainersScalaVersion = "0.39.8"
+lazy val testContainersScalaVersion = "0.44.1"
 lazy val testContainersGitlabVersion = "1.1.0"
 lazy val akkaVersion = "2.6.17"
 
@@ -10,7 +10,7 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       organization := "com.clever-cloud",
       scalaVersion := "2.13.6",
-      version := "1.0.1",
+      version := "1.0.2",
     )),
     name := "testcontainers-scala-gitlab",
     licenses := List("MIT" -> new URL("https://mit-license.org/")),
